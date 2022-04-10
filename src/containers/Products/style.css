@@ -1,0 +1,50 @@
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.actionBtnContainer {
+  display: flex;
+  align-items: center;
+}
+/* Css classs can see by inspect element */
+.modal-header {
+  padding: 5px 15px;
+  background-color: black;
+}
+.modal-title {
+  color: #fff;
+  font-size: 18px;
+}
+.modal-footer {
+  padding: 5px 15px;
+}
+.actionBtnContainer > button{
+    border: 0;
+    margin: 0 5px;
+    font-size: 16px;
+
+}
+
+.key {
+  /* font-size: 12px; */
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.value {
+  /* font-size: 14px; */
+  font-family: serif;
+}
+.productImgContainer {
+  display: flex;
+  width: auto;
+  height: 100px;
+  overflow: hidden;
+
+  text-align: center;
+}
+.productImgContainer img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+  margin: .4rem;
+}
